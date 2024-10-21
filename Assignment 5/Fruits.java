@@ -4,6 +4,8 @@ package com.app.fruits;
 
 import java.util.Scanner;
 
+
+// We have to declare our class abstract because this class consists of abstract method
 public abstract class Fruits {
 	String color;
 	double weight;
@@ -68,7 +70,7 @@ public abstract class Fruits {
 	}
 	
 	
-
+	// Override this method from object class
 	@Override
 	public String toString() {
 		return "name = " + name + " color = " + color + " weight = " + weight;
